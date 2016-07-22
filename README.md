@@ -1,2 +1,2 @@
 # MorseCode
-Input mors code, apply a right cesar shift, and translate
+Input morse code, apply a right cesar shift, and translate
