@@ -1,2 +1,5 @@
 # MorseCode
-Input morse code, apply a right cesar shift, and translate
+
+Morse Code Input In Form: <CESAR SHIFT RIGHT BY THIS MUCH>M<MESSAGE>
+Applies the Cesar shift specified, translates the message
+
