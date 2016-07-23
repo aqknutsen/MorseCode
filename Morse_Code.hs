@@ -242,4 +242,6 @@ decodeText message = decodeCipher (getString(fromMorseCode message)) (stringtoIn
 inputStringA = "..--- -- .- --. -. ..-. -.-. .--. -.-. -... -.- -.-. --.- --.- ----. . -.-. ..- --. .-. ..-. .--- -.-. .-. .-. -.-. .--. --.- ----. .-.. -... .-.. ... -.- ----- -.-. .--. -..- ---.. -.-- --.. .---- ..--- ...-- ....- ..... -...."
 
 main = do
-    putStrLn $ decodeText inputStringA
+    putStrLn $ "Input: " ++ inputStringA
+    putStrLn $ "Before Cesar Shift: " ++ (fromMorseCode inputStringA)
+    putStrLn $ "Ciphered: " ++ (decodeText inputStringA)
